@@ -1,12 +1,14 @@
 // import Usuario from "./components/Usuario/Usuario";
 // import Card from "./components/Card/Card";
-import Counter from "./components/Counter/Counter";
+// import Counter from "./components/Counter/Counter";
+import Text from "./components/Text/Text";
 function App() {
   return (
     <div>
       {/* === Clase 3 === */}
       {/* Componente Counter */}
-      <Counter />
+      {/* <Counter /> */}
+      <Text />
       {/* === Clase 2 === */}
       {/* Componente Usuario */}
       {/* <Usuario nombre="Hugo" edad="52" nacionalidad="Argentino" /> */}

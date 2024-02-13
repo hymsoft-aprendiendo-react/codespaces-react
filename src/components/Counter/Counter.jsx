@@ -16,6 +16,7 @@ const Counter = () => {
       <h1>{number}</h1>
       <button onClick={sumar}>Sumar</button>
       <button onClick={restar}>Restar</button>
+      <hr />
     </div>
   );
 };

@@ -1,21 +1,21 @@
 // import Usuario from "./components/Usuario/Usuario";
 // import Card from "./components/Card/Card";
 // import Counter from "./components/Counter/Counter";
-import Text from "./components/Text/Text";
+// import Text from "./components/Text/Text";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 function App() {
   return (
     <div>
+      {/* === Clase 4 === */}
+      <ItemListContainer />
       {/* === Clase 3 === */}
-      {/* Componente Counter */}
       {/* <Counter /> */}
-      <Text />
+      {/* <Text /> */}
       {/* === Clase 2 === */}
-      {/* Componente Usuario */}
       {/* <Usuario nombre="Hugo" edad="52" nacionalidad="Argentino" /> */}
       {/* <Usuario nombre="María" edad="35" nacionalidad="Chilena" /> */}
       {/* <Usuario nombre="Carlos" edad="41" nacionalidad="Mexicano" /> */}
       {/* === Clase 1 === */}
-      {/* Componente Card */}
       {/* <Card title="Card - 01" description="Descripción para la card numero 1" /> */}
       {/* <Card title="Card - 02" description="Esta es la card número 2" /> */}
     </div>

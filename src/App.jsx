@@ -2,12 +2,18 @@
 // import Card from "./components/Card/Card";
 // import Counter from "./components/Counter/Counter";
 // import Text from "./components/Text/Text";
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+// import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+// import Pokemon from "./components/Pokemon/Pokemon";
+import PokemonList from "./components/Pokemon/PokemonList";
+
 function App() {
   return (
     <div>
+      {/* === Clase 6 === */}
+      {/* <Pokemon /> */}
+      <PokemonList />
       {/* === Clase 4 === */}
-      <ItemListContainer />
+      {/* <ItemListContainer /> */}
       {/* === Clase 3 === */}
       {/* <Counter /> */}
       {/* <Text /> */}

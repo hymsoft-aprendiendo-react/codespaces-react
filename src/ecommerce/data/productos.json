@@ -1,162 +1,182 @@
 [
   {
     "id": 1,
-    "title": "Pastrami",
+    "title": "Camiseta de Leopardo",
     "image": "http://dummyimage.com/200x100.png/ff4444/ffffff",
     "price": "8.69",
-    "description": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
-    "type": "remeras"
+    "description": "Camiseta de algodón suave con estampado de leopardo, perfecta para un look salvaje y moderno.",
+    "type": "remeras",
+    "stock": 4
   },
   {
     "id": 2,
-    "title": "Bouillion - Fish",
+    "title": "Chomba de Rayas Azules",
     "image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
     "price": "2.16",
-    "description": "Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
-    "type": "chombas"
+    "description": "Chomba de manga corta con elegantes rayas azules, ideal para un estilo casual y fresco.",
+    "type": "chombas",
+    "stock": 7
   },
   {
     "id": 3,
-    "title": "Bread - Olive Dinner Roll",
+    "title": "Buzo Gris Moderno",
     "image": "http://dummyimage.com/200x100.png/cc0000/ffffff",
     "price": "3.13",
-    "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.",
-    "type": "buzos"
+    "description": "Buzo de color gris con diseño moderno y cómodo, perfecto para mantenerte abrigado en días frescos.",
+    "type": "buzos",
+    "stock": 9
   },
   {
     "id": 4,
-    "title": "Mikes Hard Lemonade",
+    "title": "Medias Deportivas",
     "image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
     "price": "1.06",
-    "description": "Aliquam non mauris.",
-    "type": "medias"
+    "description": "Medias deportivas de alta calidad, ideales para entrenamientos intensivos o actividades al aire libre.",
+    "type": "medias",
+    "stock": 2
   },
   {
     "id": 5,
-    "title": "Waffle Stix",
+    "title": "Pantalones Vaqueros Elegantes",
     "image": "http://dummyimage.com/200x100.png/dddddd/000000",
     "price": "8.08",
-    "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",
-    "type": "pantalones"
+    "description": "Pantalones vaqueros elegantes y versátiles, perfectos para lucir un look casual o formal según la ocasión.",
+    "type": "pantalones",
+    "stock": 5
   },
   {
     "id": 6,
-    "title": "Bag - Bread, White, Plain",
+    "title": "Camisa de Lino Azul",
     "image": "http://dummyimage.com/200x100.png/cc0000/ffffff",
     "price": "1.57",
-    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
-    "type": "camisas"
+    "description": "Camisa de lino fresca y ligera en color azul, ideal para un estilo veraniego y relajado.",
+    "type": "camisas",
+    "stock": 3
   },
   {
     "id": 7,
-    "title": "Steamers White",
+    "title": "Remera Estampada",
     "image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
     "price": "6.59",
-    "description": "Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
-    "type": "remeras"
+    "description": "Remera de algodón con estampado llamativo, perfecta para añadir un toque de color a tu outfit.",
+    "type": "remeras",
+    "stock": 8
   },
   {
     "id": 8,
-    "title": "Bagelers - Cinn / Brown Sugar",
+    "title": "Buzo Deportivo Negro",
     "image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
     "price": "4.47",
-    "description": "Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
-    "type": "buzos"
+    "description": "Buzo deportivo negro con detalles en contraste, ideal para un look atlético y moderno.",
+    "type": "buzos",
+    "stock": 1
   },
   {
     "id": 9,
-    "title": "Ecolab - Orange Frc, Cleaner",
+    "title": "Medias de Colores",
     "image": "http://dummyimage.com/200x100.png/cc0000/ffffff",
     "price": "4.61",
-    "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
-    "type": "medias"
+    "description": "Pack de medias de colores variados, perfectas para añadir un toque divertido a tu vestuario diario.",
+    "type": "medias",
+    "stock": 6
   },
   {
     "id": 10,
-    "title": "Wine - Fume Blanc Fetzer",
+    "title": "Camisa de Cuadros Rojos",
     "image": "http://dummyimage.com/200x100.png/cc0000/ffffff",
     "price": "4.58",
-    "description": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
-    "type": "camisas"
+    "description": "Camisa de cuadros en tonos rojos vibrantes, ideal para un look casual pero llamativo.",
+    "type": "camisas",
+    "stock": 0
   },
   {
     "id": 11,
-    "title": "Bread - Pumpernickel",
+    "title": "Pantalones Cargo",
     "image": "http://dummyimage.com/200x100.png/cc0000/ffffff",
     "price": "5.56",
-    "description": "Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "type": "chombas"
+    "description": "Pantalones cargo cómodos y funcionales, perfectos para un estilo urbano y dinámico.",
+    "type": "pantalones",
+    "stock": 10
   },
   {
     "id": 12,
-    "title": "Ecolab - Solid Fusion",
+    "title": "Medias Deportivas Transpirables",
     "image": "http://dummyimage.com/200x100.png/cc0000/ffffff",
     "price": "2.50",
-    "description": "In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
-    "type": "pantalones"
+    "description": "Medias deportivas transpirables con tejido de alta tecnología, ideales para mantener tus pies frescos durante el ejercicio.",
+    "type": "medias",
+    "stock": 5
   },
   {
     "id": 13,
-    "title": "Veal - Bones",
+    "title": "Buzo Elegante de Lana",
     "image": "http://dummyimage.com/200x100.png/ff4444/ffffff",
     "price": "1.84",
-    "description": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
-    "type": "medias"
+    "description": "Buzo elegante de lana con diseño clásico y confortable, perfecto para un look sofisticado en días fríos.",
+    "type": "buzos",
+    "stock": 8
   },
   {
     "id": 14,
-    "title": "Chocolate - White",
+    "title": "Chomba de Estilo Retro",
     "image": "http://dummyimage.com/200x100.png/ff4444/ffffff",
     "price": "1.05",
-    "description": "Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
-    "type": "buzos"
+    "description": "Chomba con estilo retro y colores llamativos, ideal para un look nostálgico y original.",
+    "type": "chombas",
+    "stock": 3
   },
   {
     "id": 15,
-    "title": "Seedlings - Clamshell",
+    "title": "Remera de Manga Corta",
     "image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
     "price": "0.87",
-    "description": "Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
-    "type": "camisas"
+    "description": "Remera de manga corta con diseño moderno y cómodo, perfecta para un estilo casual y desenfadado.",
+    "type": "remeras",
+    "stock": 2
   },
   {
     "id": 16,
-    "title": "Soup - Knorr, Veg / Beef",
+    "title": "Pantalones de Tela Ligera",
     "image": "http://dummyimage.com/200x100.png/cc0000/ffffff",
     "price": "9.23",
-    "description": "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
-    "type": "remeras"
+    "description": "Pantalones de tela ligera y fresca, ideales para un look veraniego y cómodo.",
+    "type": "pantalones",
+    "stock": 1
   },
   {
     "id": 17,
-    "title": "Cauliflower",
+    "title": "Camisa Elegante de Algodón",
     "image": "http://dummyimage.com/200x100.png/cc0000/ffffff",
     "price": "9.74",
-    "description": "Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
-    "type": "pantalones"
+    "description": "Camisa elegante de algodón suave y cómodo, perfecta para ocasiones formales o eventos especiales.",
+    "type": "camisas",
+    "stock": 6
   },
   {
     "id": 18,
-    "title": "Cheese Cloth No 100",
+    "title": "Buzo Deportivo de Entrenamiento",
     "image": "http://dummyimage.com/200x100.png/cc0000/ffffff",
     "price": "3.85",
-    "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",
-    "type": "buzos"
+    "description": "Buzo deportivo diseñado para entrenamientos intensivos, con tejido transpirable y cómodo.",
+    "type": "buzos",
+    "stock": 0
   },
   {
     "id": 19,
-    "title": "Tofu - Firm",
+    "title": "Remera de Diseño Abstracto",
     "image": "http://dummyimage.com/200x100.png/ff4444/ffffff",
     "price": "2.71",
-    "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
-    "type": "medias"
+    "description": "Remera de diseño abstracto y colores vivos, ideal para quienes buscan un estilo único y original.",
+    "type": "remeras",
+    "stock": 9
   },
   {
     "id": 20,
-    "title": "Oil - Grapeseed Oil",
+    "title": "Pantalones Casuales",
     "image": "http://dummyimage.com/200x100.png/dddddd/000000",
     "price": "5.15",
-    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-    "type": "chombas"
+    "description": "Pantalones casuales versátiles y cómodos, perfectos para el día a día y diversas ocasiones.",
+    "type": "pantalones",
+    "stock": 7
   }
 ]

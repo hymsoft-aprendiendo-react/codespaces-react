@@ -1,30 +1,42 @@
 /* eslint-disable */
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <a href="#" className="logo">
+      <Link to="/" className="logo">
         <h1>HyM Shop</h1>
-      </a>
+      </Link>
       <ul className="menu">
         <li>
-          <a className="menu-link" href="#">
+          <Link className="menu-link" to="/">
             Inicio
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="menu-link" href="#">
+          <Link className="menu-link" to="/nosotros">
             Nosotros
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="menu-link" href="#">
+          <Link className="menu-link" to="/productos">
             Productos
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="menu-link" href="#">
-            Contacto
-          </a>
+          <Link className="menu-link" to="/productos/remeras">
+            Remeras
+          </Link>
+        </li>
+        <li>
+          <Link className="menu-link" to="/productos/chombas">
+            Chombas
+          </Link>
+        </li>
+        <li>
+          <Link className="menu-link" to="/productos/buzos">
+            Buzos
+          </Link>
         </li>
       </ul>
     </nav>

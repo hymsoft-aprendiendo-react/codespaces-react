@@ -1,8 +1,10 @@
 import Item from "./Item";
-const ItemList = ({ productos }) => {
+import { toCapitalize } from "../../helpers/utils";
+
+const ItemList = ({ productos, titulo }) => {
   return (
     <div className="container">
-      <h2 className="main-title">Productos</h2>
+      <h2 className="main-title">{toCapitalize(titulo)}</h2>
       <div className="productos">
         {productos.map((producto) => (
           <Item producto={producto} key={producto.id} />

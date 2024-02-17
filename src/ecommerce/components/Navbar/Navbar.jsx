@@ -1,5 +1,6 @@
 /* eslint-disable */
 import { Link } from "react-router-dom";
+import CartWidget from "../Carrito/CartWidget";
 
 const Navbar = () => {
   return (
@@ -42,6 +43,9 @@ const Navbar = () => {
           <Link className="menu-link" to="/contacto">
             Contacto
           </Link>
+        </li>
+        <li>
+          <CartWidget />
         </li>
       </ul>
     </nav>

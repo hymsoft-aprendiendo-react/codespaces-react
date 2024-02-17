@@ -3,8 +3,7 @@ import { CartContext } from "../../context/CartContext";
 import ItemCount from "./ItemCount";
 
 const ItemDetail = ({ item }) => {
-  const { carrito, agregarAlCarrito } = useContext(CartContext);
-  console.log({ carrito });
+  const { agregarAlCarrito } = useContext(CartContext);
   const [cantidad, setCantidad] = useState(1);
 
   const handleRestar = () => {

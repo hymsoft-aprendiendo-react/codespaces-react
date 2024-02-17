@@ -24,9 +24,15 @@ function App() {
     setCarrito(nuevoCarrito);
   };
 
+  const cantidadEnCarrito = () => {
+    return carrito.reduce((acc, item) => acc + item.cantidad, 0);
+  };
+
   return (
     <div>
-      <CartContext.Provider value={{ carrito, agregarAlCarrito }}>
+      <CartContext.Provider
+        value={{ carrito, agregarAlCarrito, cantidadEnCarrito }}
+      >
         <BrowserRouter>
           <Navbar />
           <Routes>

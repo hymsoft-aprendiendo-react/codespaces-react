@@ -1,12 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
+import { CartContext } from "./context/CartContext";
 import "./main.css";
 import Navbar from "./components/Navbar/Navbar";
 import ItemListContainer from "./components/Productos/ItemListContainer";
 import ItemDetailContainer from "./components/Productos/ItemDetailContainer";
+import Carrito from "./components/Carrito/Carrito";
 import Nosotros from "./components/Nosotros/Nosotros";
 import Contacto from "./components/Nosotros/Contacto3";
-import { CartContext } from "./context/CartContext";
 
 function App() {
   const [carrito, setCarrito] = useState([]);
@@ -28,10 +29,24 @@ function App() {
     return carrito.reduce((acc, item) => acc + item.cantidad, 0);
   };
 
+  const precioTotal = () => {
+    return carrito.reduce((acc, item) => acc + item.price * item.cantidad, 0);
+  };
+
+  const vaciarCarrito = () => {
+    setCarrito([]);
+  };
+
   return (
     <div>
       <CartContext.Provider
-        value={{ carrito, agregarAlCarrito, cantidadEnCarrito }}
+        value={{
+          carrito,
+          agregarAlCarrito,
+          cantidadEnCarrito,
+          precioTotal,
+          vaciarCarrito,
+        }}
       >
         <BrowserRouter>
           <Navbar />
@@ -45,6 +60,7 @@ function App() {
             />
             <Route path="/nosotros" element={<Nosotros />} />
             <Route path="/contacto" element={<Contacto />} />
+            <Route path="/carrito" element={<Carrito />} />
           </Routes>
         </BrowserRouter>
       </CartContext.Provider>

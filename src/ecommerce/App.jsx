@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState } from "react";
-import { CartContext } from "./context/CartContext";
+import { CartProvider } from "./context/CartContext";
 import "./main.css";
 import Navbar from "./components/Navbar/Navbar";
 import ItemListContainer from "./components/Productos/ItemListContainer";
@@ -10,44 +9,9 @@ import Nosotros from "./components/Nosotros/Nosotros";
 import Contacto from "./components/Nosotros/Contacto3";
 
 function App() {
-  const [carrito, setCarrito] = useState([]);
-
-  const agregarAlCarrito = (item, cantidad) => {
-    const itemAgregado = { ...item, cantidad };
-    const nuevoCarrito = [...carrito];
-    const existe = nuevoCarrito.find((item) => item.id === itemAgregado.id);
-
-    if (existe) {
-      existe.cantidad += cantidad;
-    } else {
-      nuevoCarrito.push(itemAgregado);
-    }
-    setCarrito(nuevoCarrito);
-  };
-
-  const cantidadEnCarrito = () => {
-    return carrito.reduce((acc, item) => acc + item.cantidad, 0);
-  };
-
-  const precioTotal = () => {
-    return carrito.reduce((acc, item) => acc + item.price * item.cantidad, 0);
-  };
-
-  const vaciarCarrito = () => {
-    setCarrito([]);
-  };
-
   return (
     <div>
-      <CartContext.Provider
-        value={{
-          carrito,
-          agregarAlCarrito,
-          cantidadEnCarrito,
-          precioTotal,
-          vaciarCarrito,
-        }}
-      >
+      <CartProvider>
         <BrowserRouter>
           <Navbar />
           <Routes>
@@ -63,7 +27,7 @@ function App() {
             <Route path="/carrito" element={<Carrito />} />
           </Routes>
         </BrowserRouter>
-      </CartContext.Provider>
+      </CartProvider>
     </div>
   );
 }

@@ -38,6 +38,11 @@ const Navbar = () => {
             Nosotros
           </Link>
         </li>
+        <li>
+          <Link className="menu-link" to="/contacto">
+            Contacto
+          </Link>
+        </li>
       </ul>
     </nav>
   );

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { collection, getDocs } from "firebase/firestore";
-import { db } from "../../firebase/config";
+import { pedirProductos } from "../../helpers/pedirProductos";
 import ItemList from "./ItemList";
 
 const ItemListContainer = () => {
@@ -10,14 +9,15 @@ const ItemListContainer = () => {
   const categoria = useParams().categoria;
 
   useEffect(() => {
-    const productosRef = collection(db, "productos");
-    getDocs(productosRef).then((res) =>
-      setProductos(
-        res.docs.map((doc) => {
-          return { ...doc.data(), id: doc.id };
-        }),
-      ),
-    );
+    pedirProductos().then((res) => {
+      if (categoria) {
+        setProductos(res.filter((producto) => producto.type === categoria));
+        setTitulo(categoria);
+      } else {
+        setProductos(res);
+        setTitulo("Productos");
+      }
+    });
   }, [categoria]);
 
   return (

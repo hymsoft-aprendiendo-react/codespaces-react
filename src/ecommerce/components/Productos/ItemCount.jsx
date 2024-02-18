@@ -1,4 +1,11 @@
-const ItemCount = ({ cantidad, handleSumar, handleRestar, handleAgregar }) => {
+const ItemCount = ({
+  cantidad,
+  handleSumar,
+  handleRestar,
+  handleAgregar,
+  stockInicial,
+}) => {
+  console.log({ jsx: "itemCount", cantidad, stockInicial });
   return (
     <>
       <div className="item-count">

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { collection, getDocs } from "firebase/firestore";
+import { collection, getDocs, query, where } from "firebase/firestore";
 import { db } from "../../firebase/config";
 import ItemList from "./ItemList";
 
@@ -11,7 +11,12 @@ const ItemListContainer = () => {
 
   useEffect(() => {
     const productosRef = collection(db, "productos");
-    getDocs(productosRef).then((res) =>
+    categoria ? setTitulo(categoria) : setTitulo("Productos");
+    const q = categoria
+      ? query(productosRef, where("type", "==", categoria))
+      : productosRef;
+
+    getDocs(q).then((res) =>
       setProductos(
         res.docs.map((doc) => {
           return { ...doc.data(), id: doc.id };

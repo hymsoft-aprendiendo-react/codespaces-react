@@ -23,15 +23,21 @@ const ItemDetail = ({ item }) => {
           <p className="descripcion">{item.description}</p>
           <p className="categoria">Categoría: {item.type}</p>
           <p className="precio">Precio: ${item.price}</p>
-          <p>Stock: {item.stock}</p>
-          <ItemCount
-            cantidad={cantidad}
-            handleSumar={handleSumar}
-            handleRestar={handleRestar}
-            handleAgregar={() => {
-              agregarAlCarrito(item, cantidad);
-            }}
-          />
+          {item.stock > 0 ? (
+            <p>Stock: {item.stock}</p>
+          ) : (
+            <h4>Estamos sin stock de este artículo :(</h4>
+          )}
+          {item.stock > 0 && (
+            <ItemCount
+              cantidad={cantidad}
+              handleSumar={handleSumar}
+              handleRestar={handleRestar}
+              handleAgregar={() => {
+                agregarAlCarrito(item, cantidad);
+              }}
+            />
+          )}
         </div>
       </div>
     </div>
